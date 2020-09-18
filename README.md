@@ -6,4 +6,4 @@
 # How To Use
 
 #### you can use -h argument
-#### you should install [jwt & colorama] on python to use the tool
+#### you should install [JWT/PyJWT & colorama] on python to use the tool
