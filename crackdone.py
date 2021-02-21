@@ -41,7 +41,7 @@ def main():
 
 def jwtcrack():
 	try:
-		wordlist = open(wList, "r")
+		wordlist = open(wList, "r", encoding='latin-1')
 	except IOError:
 		print("[-] There is a problem with the wordlist [ "+ wList +" ]")
 		exit()
